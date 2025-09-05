@@ -1,119 +1,82 @@
+## Metodologia
 
-# Metodologia
+A metodologia para condução do projeto será o **Scrum**. O trabalho será organizado em **Sprints de duas semanas**, um ciclo que permite focar em um conjunto de funcionalidades, iterar rapidamente e adaptar-se a novas demandas. Cada Sprint seguirá os rituais e utilizará os artefatos do Scrum para garantir alinhamento e progresso contínuo.
 
+### Rituais (Cerimônias)
 
-A metodologia para condução do projeto será <em>Scrum</em>(O Guia do Scrum, 2020), seguindo seus rituais de <em>Periódicosy</em>, <em>Planning</em>, <em>Retrospective</em> e <em>Review</em>. Desenvolvimento das tarefas terão tempo hábil de uma semana no formato de <em>sprint</em>, criando artefatos em seus rituais: <em>Backlog</em> do produto e <em>backlog</em> da <em>sprint</em>
+* **Sprint Planning (Planejamento):** Reunião realizada no início de cada Sprint com o objetivo de selecionar as tarefas de maior prioridade do *Product Backlog* e movê-las para o *Sprint Backlog*, que será o foco do ciclo de duas semanas.
+* **Daily Scrum (Reuniões Diárias):** Reuniões rápidas (até 15 minutos) no início de cada dia para sincronizar o trabalho. Cada membro responde: O que fiz ontem? O que farei hoje? Há algum impedimento?
+* **Sprint Review (Revisão):** Ao final da Sprint, a equipe apresenta as funcionalidades concluídas. O objetivo é demonstrar o incremento de software funcionando e coletar feedbacks para validar o trabalho entregue.
+* **Sprint Retrospective (Retrospectiva):** Após a Review, a equipe se reúne para avaliar o processo de trabalho da Sprint que terminou, discutindo o que funcionou bem, o que pode ser melhorado e definindo ações concretas para a próxima Sprint.
 
-- **Periodic meeting**: Reuniões periódicas com objetivo de acompanhamento das tarefas e verificar impedimentos no desenvolvimento
-- **Planning**: Reunião ao iniciar <em>sprints</em>, com objetivo de alinhamento da equipe e criação do artefato: <em>Backlog</em> do produto
-- **Retrospective**: Reunião ao terminar ciclos de <em>sprints</em>, com objetivo de avaliar o processo conduzido durante o desenvolvimento e sugestão de melhorias. Criação do artefato <em>Backlog</em> da <em>sprint</em>
-- **Review**: Reunião com objetivo de demonstrar as tarefas desenvolvidas, coleta e validação de <em>feedbacks</em>
+### Artefatos
+
+* **Product Backlog:** A lista completa e priorizada de todas as funcionalidades, requisitos, melhorias e correções desejadas para o projeto. É um artefato vivo, gerenciado como *Issues* no GitHub.
+* **Sprint Backlog:** O conjunto de itens do *Product Backlog* selecionados para serem desenvolvidos durante uma Sprint.
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+A ferramenta de controle de versão adotada é o **Git**, com o **GitHub** sendo utilizado para hospedagem do repositório central e colaboração.
 
-O projeto segue a seguinte convenção para o nome de branches:
+### Estratégia de Branches
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+O projeto segue um fluxo baseado no GitFlow, com branches que representam diferentes estágios do desenvolvimento:
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+* **main:** Versão de produção. Contém o código estável que está em deploy. Só recebe merges da branch `release` ou `hotfix`.
+* **develop:** Branch principal de desenvolvimento. Integra todas as funcionalidades concluídas e serve como base para novas features. É a versão mais atual do que será o próximo lançamento.
+* **feature/`<nome-da-feature>`:** Branches criadas a partir da `develop`. Cada nova funcionalidade (ex: `feature/login-admin`) é desenvolvida em sua própria branch. Ao ser concluída, é mesclada de volta na `develop` via Pull Request.
+* **release/`vX.X.X`:** Branch criada a partir da `develop` quando um conjunto de funcionalidades está pronto para ser lançado. Nela, são feitos apenas os últimos ajustes e testes antes do merge para a `main`.
+* **hotfix/`<correcao-urgente>`:** Branch criada a partir da `main` para corrigir bugs críticos em produção. Ao ser concluída, é mesclada tanto na `main` quanto na `develop`.
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+### Gerenciamento de Commits, Issues e Pull Requests
 
-### Gerenciamento de Issues e Pull Requests
-
-O projeto utiliza o sistema de Issues do GitHub para rastrear tarefas, bugs e melhorias. As issues podem ser criadas através do link: [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e2-proj-int-t9-savemoney/issues](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e2-proj-int-t9-savemoney/issues)
-
-Para contribuições de código, utilizamos Pull Requests que podem ser criados através de: [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e2-proj-int-t9-savemoney/pulls](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e2-proj-int-t9-savemoney/pulls)
-
-### Comunicação e Discussões
-
-O projeto mantém um fórum de discussões no GitHub para debates sobre funcionalidades, arquitetura e decisões técnicas: [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e2-proj-int-t9-savemoney/discussions](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e2-proj-int-t9-savemoney/discussions)
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+* **Commits:** As mensagens de commit seguirão o padrão **Conventional Commits** (ex: `feat: Adiciona filtro de preço`, `fix: Corrige bug no formulário de contato`), para manter o histórico claro e organizado.
+* **Issues:** A gerência de tarefas é feita via **GitHub Issues**. Cada tarefa, bug ou melhoria é uma Issue, que contém descrição, critérios de aceite e é atribuída a um responsável. As Issues são etiquetadas para facilitar a organização:
+    * `documentation`: Melhorias ou acréscimos à documentação.
+    * `bug`: Uma funcionalidade apresenta um problema.
+    * `enhancement`: Uma funcionalidade existente precisa ser melhorada.
+    * `feature`: Uma nova funcionalidade a ser implementada.
+* **Pull Requests (PRs):** Toda e qualquer integração de código nas branches `develop` e `main` será feita exclusivamente através de Pull Requests. Cada PR deve estar vinculado a uma Issue, passar pela revisão do outro membro da equipe (code review) e, idealmente, por verificações automatizadas (CI/CD) antes de ser aprovado e mesclado.
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Sendo uma equipe de dois membros, os papéis são fluidos e colaborativos, mas com focos primários para garantir a cobertura de todas as áreas do projeto:
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+* **Membro A:** Desenvolvedor Full-Stack com foco em **Backend**. Responsável principal pela arquitetura da solução em ASP.NET Core, modelagem do banco de dados com EF Core e configuração da lógica de negócio.
+* **Membro B:** Desenvolvedor Full-Stack com foco em **Frontend**. Responsável principal pela implementação das interfaces com HTML/CSS/Bootstrap, interatividade com JavaScript e garantia da responsividade e usabilidade.
 
-### Processo
+Ambos os membros compartilham a responsabilidade pela gestão do projeto, participação nos rituais do Scrum e revisão de código (code review) um do outro.
 
-O grupo implementa uma metodologia ágil baseada no Scrum para o desenvolvimento do projeto. Utilizamos o sistema de projetos do GitHub para gerenciar o fluxo de trabalho através de um quadro Kanban.
+### Processo e Quadro Kanban
 
-#### Quadro Kanban
+A equipe utiliza um quadro **Kanban no GitHub Projects** para gerenciar visualmente o fluxo de trabalho dentro de cada Sprint.
 
-O projeto utiliza um quadro Kanban no GitHub Projects para visualizar e gerenciar o fluxo de trabalho: [https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2161](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2161)
+* **Link do Quadro:** `https://github.com/[SEU-USUARIO]/[SEU-REPOSITORIO]/projects/1` (substituir pelo link real)
+* **Colunas:**
+    * **Backlog:** Todas as Issues do projeto.
+    * **To Do:** Issues selecionadas para a Sprint atual.
+    * **In Progress:** Issue que está sendo desenvolvida ativamente.
+    * **Review:** A Issue foi desenvolvida e um Pull Request está aberto para revisão.
+    * **Done:** O Pull Request foi aprovado e mesclado. A tarefa está concluída.
 
-O quadro está organizado nas seguintes colunas:
-- **Backlog**: Tarefas planejadas para futuras sprints
-- **To Do**: Tarefas selecionadas para a sprint atual
-- **In Progress**: Tarefas em desenvolvimento
-- **Review**: Tarefas em revisão de código
-- **Done**: Tarefas concluídas
+## Ferramentas
 
-#### Fluxo de Trabalho
+| Categoria | Ferramenta | Propósito |
+| :--- | :--- | :--- |
+| **Controle de Versão e Colaboração** | **Git & GitHub** | Controle de código-fonte, colaboração e gestão integrada do projeto. |
+| **Gerenciamento de Projeto** | **GitHub Projects, Issues, Discussions, PRs**| Gestão de tarefas (Kanban), rastreamento de bugs, discussões técnicas e revisão de código. |
+| **Desenvolvimento (Backend)** | **Visual Studio 2022, ASP.NET Core, EF Core** | IDE de desenvolvimento e frameworks para construção da lógica de negócio e API. |
+| **Desenvolvimento (Frontend)** | **Visual Studio Code, HTML, CSS, JS, Bootstrap**| Edição de código e tecnologias para a construção da interface do usuário. |
+| **Banco de Dados** | **Supabase (PostgreSQL)** | Plataforma para hospedagem e gerenciamento do banco de dados na nuvem. |
+| **Design de Interface (UI/UX)** | **Figma** | Criação de wireframes, protótipos e o design visual da aplicação. |
 
-1. **Planejamento**: As tarefas são criadas como Issues no GitHub
-2. **Seleção**: As Issues são movidas para o quadro Kanban na coluna "To Do"
-3. **Desenvolvimento**: Durante o desenvolvimento, as Issues são movidas para "In Progress"
-4. **Revisão**: Após o desenvolvimento, as Issues são movidas para "Review"
-5. **Conclusão**: Tarefas aprovadas são movidas para "Done"
+## Justificativa das Escolhas
 
-O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
-### Ferramentas
-
-As ferramentas empregadas no projeto são:
-
-#### Controle de Versão e Colaboração
-- **GitHub**: Plataforma principal para controle de versão, gerenciamento de projetos e colaboração
-- **Git**: Sistema de controle de versão distribuído para gerenciar o código fonte
-
-#### Gerenciamento de Projeto
-- **GitHub Projects**: Quadro Kanban para visualização do fluxo de trabalho e gerenciamento de tarefas
-- **GitHub Issues**: Sistema de rastreamento de tarefas, bugs e melhorias
-- **GitHub Discussions**: Fórum para discussões técnicas e decisões do projeto
-- **GitHub Pull Requests**: Sistema de revisão e merge de código
-
-#### Desenvolvimento
-- **Editor de código**: Para desenvolvimento e edição do código fonte
-- **Ferramentas de desenho de tela (_wireframing_)**: Para criação de protótipos e diagramas de interface
-
-#### Justificativa das Escolhas
-
-- **GitHub**: Escolhido por sua integração completa entre controle de versão, gerenciamento de projetos e colaboração
-- **Git**: Ferramenta padrão da indústria para controle de versão, com excelente integração com GitHub
-- **GitHub Projects**: Permite visualização clara do fluxo de trabalho e facilita o acompanhamento do progresso
-- **GitHub Issues**: Sistema robusto para rastreamento de tarefas com integração nativa com o repositório
-- **GitHub Discussions**: Facilita a comunicação da equipe e documentação de decisões técnicas
-- **GitHub Pull Requests**: Sistema eficiente para revisão de código e controle de qualidade
+* **GitHub:** Escolhido por sua integração completa entre controle de versão, gerenciamento de projetos e colaboração, centralizando todo o ciclo de vida do desenvolvimento em um único local.
+* **Git:** Ferramenta padrão da indústria para controle de versão, com excelente integração com o GitHub e essencial para o trabalho colaborativo.
+* **GitHub Projects:** Permite uma visualização clara do fluxo de trabalho através do Kanban, facilitando o acompanhamento do progresso e a identificação de gargalos.
+* **GitHub Issues:** Sistema robusto para rastreamento de tarefas com integração nativa ao repositório, commits e Pull Requests, garantindo total rastreabilidade.
+* **GitHub Discussions:** Facilita a comunicação da equipe e a documentação de decisões técnicas, criando um registro histórico consultável.
+* **GitHub Pull Requests:** Sistema eficiente para revisão de código (code review), uma prática fundamental para garantir a qualidade do software e compartilhar conhecimento.
