@@ -1,29 +1,29 @@
-message: Please cite this software using these metadata.
-title:
+# Por favor, cite este software usando os metadados abaixo.
+# Este é um arquivo no formato Citation File Format (CFF), um formato legível por humanos e máquinas para citação de software.
+
+cff-version: 1.2.0
+message: "Se você utilizar este software em seu trabalho, por favor, cite-o utilizando os metadados abaixo."
+title: "Vitrine Imóveis - Portal Imobiliário Moderno"
+
+# Autores da solução de software
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+  - family-names: "[Theodoro]"
+    given-names: "[Maicon]"
+    # affiliation: "Nome da Sua Empresa ou 'Desenvolvedor Independente'" # Opcional
+  - family-names: "[SOBRENOME DO COLEGA]"
+    given-names: "[NOME DO COLEGA]"
+    # affiliation: "Nome da Sua Empresa ou 'Desenvolvedor Independente'" # Opcional
+
+# Palavras-chave que descrevem o software
 keywords:
-  - 
-  - 
-repository-code: 
+  - "imobiliária"
+  - "portal imobiliário"
+  - "gestão de imóveis"
+  - "mercado imobiliário"
+  - "aspnet-core"
+  - "real estate"
+
+# URL do repositório de código-fonte
+repository-code: "https://github.com/[SEU-USUARIO]/[SEU-REPOSITORIO]"
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2025-12-01 # <-- SUGESTÃO: Use a data real do lançamento da versão 1.0.0
