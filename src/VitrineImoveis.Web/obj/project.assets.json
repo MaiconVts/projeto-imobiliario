@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maico\\Documents\\GitHub\\pmv-ads-2025-2-e2-proj-int-t9-savemoney\\src\\VitrineImoveis.Web\\VitrineImoveis.web.csproj",
+      "projectUniqueName": "C:\\Users\\maico\\Documents\\GitHub\\projeto-imobiliario\\src\\VitrineImoveis.Web\\VitrineImoveis.web.csproj",
       "projectName": "VitrineImoveis.web",
-      "projectPath": "C:\\Users\\maico\\Documents\\GitHub\\pmv-ads-2025-2-e2-proj-int-t9-savemoney\\src\\VitrineImoveis.Web\\VitrineImoveis.web.csproj",
+      "projectPath": "C:\\Users\\maico\\Documents\\GitHub\\projeto-imobiliario\\src\\VitrineImoveis.Web\\VitrineImoveis.web.csproj",
       "packagesPath": "C:\\Users\\maico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maico\\Documents\\GitHub\\pmv-ads-2025-2-e2-proj-int-t9-savemoney\\src\\VitrineImoveis.Web\\obj\\",
+      "outputPath": "C:\\Users\\maico\\Documents\\GitHub\\projeto-imobiliario\\src\\VitrineImoveis.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
