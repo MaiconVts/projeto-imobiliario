@@ -1,13 +1,21 @@
-### Referências Bibliográficas
+# Referências Bibliográficas
 
-* COSTA, Simone Aparecida da. **Planejamento financeiro pessoal: uma proposta para a saúde financeira do brasileiro da classe C**. 2019. Dissertação (Mestrado em Ciências Empresariais) - Universidade Fernando Pessoa, Porto, 2019.
+As fontes listadas abaixo serviram como base para as decisões estratégicas, metodológicas e técnicas adotadas no desenvolvimento deste projeto.
 
-* GAZZONI, Elizabeth Inez. **Fluxo de caixa: ferramenta de controle financeiro para a pequena empresa**. 2003. 96 f. Dissertação (Mestrado em Engenharia de Produção) – Programa de Pós-Graduação em Engenharia de Produção, Universidade Federal de Santa Catarina, Florianópolis, 2003.
+* KOTLER, Philip; KARTAJAYA, Hermawan; SETIAWAN, Iwan. **Marketing 4.0: do tradicional ao digital**. Rio de Janeiro: Sextante, 2017.
+    *(Referência para a justificativa de negócio e a importância da transição para uma plataforma digital própria).*
 
-* IGREJA, Arthur. Como manter a saúde financeira em um mundo consumista?. *In*: XIX CONGRESSO NACIONAL E I CONGRESSO INTERNACIONAL ABRAVES, 2019, Toledo. **Revista Acadêmica Ciência Animal**, 2019. v. 17, supl. 3, p. 9.
+* KRUG, Steve. **Não me faça pensar, revisitado: uma abordagem de bom senso à usabilidade na web**. São Paulo: Alta Books, 2014.
+    *(Base para os princípios de simplicidade e clareza aplicados no Projeto de Interface e nos Testes de Usabilidade).*
 
-* SAVOIA, José Roberto Ferreira; SAITO, Andre Taue; SANTANA, Flávia de Angelis. Paradigmas da educação financeira no Brasil. **Revista de Administração Pública**, Rio de Janeiro, v. 41, n. 6, p. 1191-1211, nov./dez. 2007.
+* NIELSEN, Jakob. **Usabilidade na Web: Projetando Websites com Qualidade**. Rio de Janeiro: Campus, 2000.
+    *(Fundamentação para a criação de uma experiência de usuário (UX) de alta qualidade e para a análise heurística da interface).*
 
-* SERRA, Rute Alexandra de Carvalho Frazão. **Controlo e responsabilidade financeira do erário público**. 2015. Relatório Profissional (Mestrado em Direito) – Departamento de Direito, Universidade Autónoma de Lisboa, Lisboa, 2015.
+* PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: Uma Abordagem Profissional**. 8ª ed. Porto Alegre: AMGH Editora, 2016.
+    *(Referência para as práticas de engenharia de software, incluindo a definição de requisitos e a escolha de padrões arquiteturais como o MVC).*
 
-* VIEIRA, Saulo Fabiano Amancio; BATAGLIA, Regiane Tardiolle Manfre; SEREIA, Vanderlei José. Educação financeira e decisões de consumo, investimento e poupança: uma análise dos alunos de uma universidade pública do norte do Paraná. **Revista de Administração da UNIMEP**, v. 9, n. 3, p. 61-86, set./dez. 2011.
+* SCHWABER, Ken; SUTHERLAND, Jeff. **O Guia do Scrum: O Guia Definitivo para o Scrum - As Regras do Jogo**. 2020. Disponível em: `https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Portuguese-Brazilian.pdf`. Acesso em: 05 set. 2025.
+    *(Fonte oficial para a metodologia ágil Scrum, utilizada no gerenciamento do projeto).*
+
+* SERVIÇO BRASILEIRO DE APOIO ÀS MICRO E PEQUENAS EMPRESAS (SEBRAE). **O Mercado Imobiliário na Era Digital: Desafios e Oportunidades para Pequenas Imobiliárias**. Relatório Setorial. Brasília, 2023.
+    *(Contextualização da relevância do projeto para o mercado de pequenas e médias imobiliárias no Brasil).*

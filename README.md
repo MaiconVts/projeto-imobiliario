@@ -1,64 +1,55 @@
-# Save Money
-
-**CURSO**: `Análise e Desenvolvimento de Sistemas`
-
-**DISCIPLINA**: `Desenvolvimento de uma Aplicação Interativa - Turma 09 - 2025/2`
-
-**SEMESTRE**: `Eixo 2`
+# Vitrine Imóveis
+*Portal Imobiliário Moderno para [Nome da Imobiliária Cliente]*
 
 ## Descrição
 
-O projeto Save Money tem como objetivo desenvolver um sistema de gestão financeira que facilite o controle de receitas, despesas e fluxo de caixa, promovendo a saúde financeira de indivíduos e empresas. A aplicação busca oferecer uma solução prática e acessível para monitorar gastos, identificar padrões de consumo, planejar orçamentos e otimizar a alocação de recursos, contribuindo para a redução de dívidas e o alcance de objetivos financeiros.
+O projeto **Vitrine Imóveis** tem como objetivo desenvolver um portal web de alta performance para o mercado imobiliário, que sirva como uma vitrine digital para apresentação de imóveis e, ao mesmo tempo, como uma poderosa ferramenta de captação de leads. A aplicação busca oferecer uma solução prática e profissional para que imobiliárias possam gerenciar seu portfólio de forma autônoma, enquanto proporciona aos potenciais compradores e inquilinos uma experiência de busca intuitiva, agradável e eficiente.
 
-Com foco na educação e organização financeira, o sistema permitirá aos usuários adotar hábitos sustentáveis de economia e planejamento a longo prazo. Além disso, empresas poderão melhorar sua gestão de fluxo de caixa, evitar desperdícios e tomar decisões estratégicas mais embasadas, garantindo maior eficiência e estabilidade econômica.
+Com foco na usabilidade e na apresentação de qualidade, o sistema permitirá que a imobiliária fortaleça sua marca, otimize seu processo de vendas e construa um relacionamento direto com seu público. Para o usuário final, a plataforma simplifica a jornada de encontrar um novo lar, oferecendo ferramentas de busca avançada, informações claras e um canal de comunicação direto e confiável com os corretores.
 
-## Integrantes
+## Equipe de Desenvolvimento
 
-* [Lucas Ferreira de Lima](https://github.com/lucasferreiralimax)
-* [Samuel Gomes Alves](https://github.com/SamuelGAlves)
-* [Matheus Carlos de S. B. de Oliveira](https://github.com/matheuscarlos443)
-* [Jeanh Patricio Valdez](https://github.com)
-* [Maicon Vitor Theodoro da Silva](https://github.com/MaiconVts)
-* [Rafael Augusto Coelho de Matos](https://github.com/rafaelmatos212)
+* **[Maicon Vitor Theodoro da Silva]** - *Desenvolvedor Full-Stack (Foco em Backend)* - [GitHub](https://github.com/[seu-usuario-github])
+* **[Maicon Vitor Theodoro da Silva]** - *Desenvolvedor Full-Stack (Foco em Frontend)* - [GitHub](https://github.com/[usuario-do-colega])
 
+## Cliente
 
-## Orientador
+* **[Nome da Imobiliária ou do Contato Principal no Cliente]**
 
-* José Wilson da Costa
+## Ambiente de Demonstração e Acesso
 
-## Instruções de Instalação, Execução e Acesso
+* **URL da Aplicação:** `https://[URL-DA-SUA-APLICACAO].azurewebsites.net/`
+* **Status:** Em Desenvolvimento
 
-**Acesso rápido (produção)**
-* URL da aplicação: https://seu-dominio.com/caminho
-* Status: em desenvolvimento
-* Ambiente: desenvolvimento
+### Credenciais de Teste (Painel Administrativo)
+* **Login:** `admin@imobiliaria.com`
+* **Senha:** `Admin@2025`
 
-**Usuário(s) de teste (se houver):**
-* Login: usuario_teste
-* Senha: senha_teste
-
-# Documentação
+# Documentação do Projeto
 
 <ol>
-<li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
-<li><a href="docs/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
-<li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
-<li><a href="docs/04-Projeto de Interface.md"> Projeto de Interface</a></li>
-<li><a href="docs/05-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
-<li><a href="docs/06-Template Padrão da Aplicação.md"> Template Padrão da Aplicação</a></li>
-<li><a href="docs/07-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
-<li><a href="docs/08-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
-<li><a href="docs/09-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
-<li><a href="docs/10-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a></li>
-<li><a href="docs/11-Registro de Testes de Usabilidade.md"> Registro de Testes de Usabilidade</a></li>
-<li><a href="docs/12-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
-<li><a href="docs/13-Referências.md"> Referências</a></li>
+    <li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
+    <li><a href="docs/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
+    <li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
+    <li><a href="docs/04-Projeto de Interface.md"> Projeto de Interface</a></li>
+    <li><a href="docs/05-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
+    <li><a href="docs/06-Template Padrão da Aplicação.md"> Template Padrão da Aplicação</a></li>
+    <li><a href="docs/07-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
+    <li><a href="docs/08-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
+    <li><a href="docs/09-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
+    <li><a href="docs/10-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a></li>
+    <li><a href="docs/11-Registro de Testes de Usabilidade.md"> Registro de Testes de Usabilidade</a></li>
+    <li><a href="docs/12-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
+    <li><a href="docs/13-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
+# Código Fonte
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<ul>
+    <li><a href="src/README.md"> Código Fonte da Aplicação</a></li>
+</ul>
 
 # Apresentação
 
-<li><a href="docs/12-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
+<ul>
+    <li><a href="docs/12-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
