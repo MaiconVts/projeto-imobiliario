@@ -1,0 +1,93 @@
+html {
+  font-size: 14px;
+}
+
+/* 1. Importação das Fontes do Google Fonts */
+/* Esta linha DEVE ser a primeira do arquivo. */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+
+/* 2. Definição da Paleta de Cores e Fontes como Variáveis CSS */
+:root {
+  /* Paleta Principal */
+  --cor-amarelo-escuro: #d4a413;
+  --cor-amarelo-medio: #efb810;
+  --cor-amarelo-claro: #f3c332;
+  --cor-azul-medio: #155db1;
+  --cor-azul-brilhante: #2196f3;
+
+  /* Cores Neutras e de Texto */
+  --cor-fundo-claro: #FFFFFF;
+  --cor-fundo-secundario: #F8F9FA;
+  --cor-texto-escuro: #212529; /* Um preto suave, bom para texto */
+  --cor-texto-claro: #E9ECEF;  /* Um branco suave para o modo escuro */
+
+  /* Fontes (agora importadas) */
+  --fonte-titulos: 'Playfair Display', serif;
+  --fonte-corpo: 'Lato', sans-serif;
+}
+
+/* 3. Estilos Globais e Exemplos de Uso */
+
+/* Reset básico e configuração do body */
+body {
+  font-family: var(--fonte-corpo);
+  font-weight: 400; /* Peso padrão para o corpo do texto */
+  color: var(--cor-texto-escuro);
+  background-color: var(--cor-fundo-claro);
+  line-height: 1.6; /* Melhora a legibilidade */
+}
+
+/* Estilização dos títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--fonte-titulos);
+  font-weight: 700; /* Peso mais forte para títulos */
+  color: var(--cor-azul-medio);
+}
+
+/* Exemplo de um botão "Call to Action" */
+.btn-cta {
+  background-color: var(--cor-amarelo-medio);
+  color: var(--cor-texto-escuro);
+  font-family: var(--fonte-corpo); /* Botões usam a fonte do corpo para clareza */
+  font-weight: 700; /* Peso forte para dar destaque */
+  text-transform: uppercase; /* Opcional: deixa o texto em maiúsculas */
+  letter-spacing: 0.5px; /* Opcional: leve espaçamento entre letras */
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-cta:hover {
+  background-color: var(--cor-amarelo-escuro);
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
