@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations; // precisamos disso para usar [Key]
 
 namespace VitrineImoveis.Web.Models
 {
-    // Esta classe sera traduzida em uma tabela chamada TipoImovel no banco de dados.
+    // Esta classe sera traduzida em uma tabela chamada TiposImovel no banco de dados.
     public class TipoImovel
     {
         [Key] // Esta etiqueta diz ao entity framework que Id é a chave primaria da tabela (PK)
