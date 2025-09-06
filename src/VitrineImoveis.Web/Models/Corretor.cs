@@ -1,6 +1,7 @@
 // Local: VitrineImoveis.Web/Models/TipoImovel.cs
 
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VitrineImoveis.Web.Models
 {

@@ -14,7 +14,7 @@ namespace VitrineImoveis.Web.Models
         [Required]
         public string UrlImage { get; set; } = null!; // URL da imagem
 
-        [StringLength(150, Errormessage = "O Texto alternativo deve ter no máximo 150 caracteres.")]
+        [StringLength(150, ErrorMessage = "O Texto alternativo deve ter no máximo 150 caracteres.")]
         public string? TextoAlternativo { get; set; } // Importante para SEO e acessibilidade
 
         // Para sabermos qual foto usar como capa no card do imóvel

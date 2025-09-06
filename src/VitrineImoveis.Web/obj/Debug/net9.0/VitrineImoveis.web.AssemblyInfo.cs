@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VitrineImoveis.web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c69249f4c13121a79a20a93fda7c9bb38d0d319d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4fac154a94fd50362586536b59db79c73e5b820")]
 [assembly: System.Reflection.AssemblyProductAttribute("VitrineImoveis.web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VitrineImoveis.web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

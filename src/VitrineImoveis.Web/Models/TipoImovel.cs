@@ -1,6 +1,7 @@
 // Local: VitrineImoveis.Web/Models/TipoImovel.cs
 
-using System.ComponentModel.DataAnnotations; // precisamos disso para usar [Key] e [Required]
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VitrineImoveis.Web.Models
 {
